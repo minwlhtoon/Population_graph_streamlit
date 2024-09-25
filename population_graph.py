@@ -1,5 +1,5 @@
 import pandas as pd
-url = "https://raw.githubusercontent.com/ilpovirt/Population_graph_streamlit/refs/heads/main/population.csv"
+url = "https://raw.githubusercontent.com/minwlhtoon/Population_graph_streamlit/refs/heads/main/population_graph.py"
 df = pd.read_csv(url)
 df = df.drop(columns = ['Unnamed: 0'])
 #Let's define the list of column headers (country names) (except the first column which is the year)
